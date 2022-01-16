@@ -10,7 +10,7 @@ console.log(teste);
 
 console.log(nome);
 
-var $nome = 'ASD';
+var $nome = 'ASD'; //caracteres aceitos unicos 
 var _nome = 'ASD2';
 
 console.log($nome);
@@ -24,7 +24,7 @@ var meuPrimeiroNome = 'Matheus';
 
 console.log(meuPrimeiroNome); // camelCase
 
-var meusobrenome = "Battisti";
+ meusobrenome = "Battisti"; //Não declarar assim, pois ela sobreescreve variaveis globais, usar var ou let
 
 console.log(meusobrenome);
 

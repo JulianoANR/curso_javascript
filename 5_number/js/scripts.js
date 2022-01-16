@@ -6,7 +6,7 @@ console.log(typeof numero);
 var float = 5.32;
 
 console.log(float);
-console.log(typeof float);
+console.log(typeof float); // float e number reornam number no type, são iguais
 
 var textoComNumero = '523';
 
